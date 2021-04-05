@@ -55,7 +55,7 @@ class Student
   end
   
   def self.find_by_name 
-    sql = 
+    sql = "SELECT * FROM "
   end 
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
