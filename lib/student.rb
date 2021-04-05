@@ -28,6 +28,8 @@ class Student
   end 
   
   def save 
+    if self.id 
+      save.i
     sql = <<-SQL
     INSERT INTO students (name, grade)
     VALUES (?,?)
