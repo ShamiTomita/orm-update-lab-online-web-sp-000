@@ -14,9 +14,10 @@ class Student
     CREATE TABLE IF NOT EXISTS students (
     id INTEGER PRIMARy KEY
     name TEXT 
-    grade TEXT)
-
-
+    grade TEXT
+    )
+    SQL
+  end 
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
 
