@@ -46,7 +46,8 @@ class Student
     student
   end 
   
-  def self.new_from_db 
+  def self.new_from_db(array)
+    
     
   end 
   # Remember, you can access your database connection anywhere in this class
