@@ -61,7 +61,7 @@ class Student
   end 
   
   def update
-    sql = "UPDATE students name = ?, grade = ?"
+    sql = "UPDATE students name = ?, grade = ?, WHERE id = ?"
   end 
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
